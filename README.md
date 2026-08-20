@@ -11,6 +11,7 @@
         - [Ex04](#ex04)
         - [Ex05](#ex05)
 - [Instructions](#instructions)
+    - [Venv](#venv)
     - [Compilation](#compilation)
     - [Norm](#norm)
 - [Resources](#resources)
@@ -124,6 +125,10 @@ From both elements, slice index 1 to index 4 (not included), this will return a 
         -> [[2, 3, 4], [7, 8, 9]]
 
 ### Ex02
+Independently find a Library for the task, use PIL Image to work with Images and reshape ***NumPy*** Arrays. 
+
+#### PIl Image Module:
+The Image module provides a class with the same name which is used to represent a PIL image. The module also provides a number of factory functions, including functions to load images from files, and to create new images.
 
 ### Ex03
 
@@ -132,6 +137,17 @@ From both elements, slice index 1 to index 4 (not included), this will return a 
 ### Ex05
 
 # Instructions
+
+### Venv
+Create a Venv with all required libs, unless you want to install them  globaly.
+
+- python3 -m venv venv
+- source venv/bin/activate
+- pip install numpy
+- pip install pillow
+- pip install flake8
+- deactivate (to exit)
+
 
 ### Compilation
 
