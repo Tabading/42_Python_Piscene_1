@@ -127,10 +127,17 @@ From both elements, slice index 1 to index 4 (not included), this will return a 
 ### Ex02
 Independently find a Library for the task, use PIL Image to work with Images and reshape ***NumPy*** Arrays. 
 
-#### PIl Image Module:
+#### PIL Image Module:
 The Image module provides a class with the same name which is used to represent a PIL image. The module also provides a number of factory functions, including functions to load images from files, and to create new images.
 
 ### Ex03
+Using the ***matplotlib*** library to display a grid with a pix array gotten from PIL.
+
+#### matplotlib display an Image:
+
+    plt.imgplot = plt.imshow(img, cmap='gray')
+    plt.show()
+
 
 ### Ex04
 
@@ -173,6 +180,9 @@ ex02:
 - https://pillow.readthedocs.io/en/stable/reference/Image.html
 
 ex03:
+- https://pillow.readthedocs.io/en/stable/reference/Image.html#
+- https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imshow.html#matplotlib.pyplot.imshow
+- KI to help find the relevant information in the library documentations
 
 ex04:
 
